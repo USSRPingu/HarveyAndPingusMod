@@ -1,9 +1,88 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "IronmanMark1Boots",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironman_mark_1_boots"
+    },
+    {
+      "name": "IronManMark1",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_man_mark_1",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "IronManArmour",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_man_armour"
+    },
+    {
+      "name": "AssembleDisassemble",
+      "type": "keybind",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assemble_disassemble"
+    },
+    {
+      "name": "IronmanMark1BootsOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironman_mark_1_boots_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.pingusharveymarvel.iron_man_mark_1_chestplate": "Iron Man Mark 1 Body",
+      "item.pingusharveymarvel.iron_man_mark_1_boots": "Iron Man Mark 1 Boots",
+      "item.pingusharveymarvel.iron_man_mark_1_helmet": "Iron Man Mark 1 Helmet",
+      "item.pingusharveymarvel.iron_man_mark_1_leggings": "Iron Man Mark 1 Leggings",
+      "itemGroup.tabiron_man_armour": "Iron Man Armour",
+      "block.pingusharveymarvel.ironman_mark_1_boots": "Ironman Mark 1 Boots",
+      "key.pingusharveymarvel.assemble_disassemble": "Assemble Disassemble"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -21,7 +100,10 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "pehkui",
+      "curios_api"
+    ],
     "currentGenerator": "forge-1.16.5",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.pinguharveylmtmarvels",

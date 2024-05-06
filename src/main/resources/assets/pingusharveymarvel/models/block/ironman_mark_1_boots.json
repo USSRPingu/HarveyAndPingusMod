@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "pingusharveymarvel:blocks/test",
+    "particle": "pingusharveymarvel:blocks/test"
+  }
+}
