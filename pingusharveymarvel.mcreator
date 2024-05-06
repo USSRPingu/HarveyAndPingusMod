@@ -1,30 +1,19 @@
 {
-  "mod_elements": [
-    {
-      "name": "Testingitem",
-      "type": "tool",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "testingitem"
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "item.pingus_iron_man.testingitem": "Testingitem"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
     "children": []
   },
   "workspaceSettings": {
-    "modid": "pingus_iron_man",
-    "modName": "pingus iron man",
+    "modid": "pingusharveymarvel",
+    "modName": "Pingu And HarveylMT\u0027s: Marvels",
     "version": "1.0.0",
-    "author": "GIGABYTE, MCreator",
+    "author": "CommnistPingu \u0026 HarveylMT",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
@@ -34,7 +23,8 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
-    "modElementsPackage": "net.mcreator.pingusironman",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.pinguharveylmtmarvels",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202200234517

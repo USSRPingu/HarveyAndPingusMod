@@ -3,14 +3,14 @@ loaderVersion="[36,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="pingus_iron_man"
+modId="pingusharveymarvel"
 version="1.0.0"
-displayName="pingus iron man"
+displayName="Pingu And HarveylMT's: Marvels"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="GIGABYTE, MCreator"
+authors="CommnistPingu & HarveylMT"
 
-[[dependencies.pingus_iron_man]]
+[[dependencies.pingusharveymarvel]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.5]"
