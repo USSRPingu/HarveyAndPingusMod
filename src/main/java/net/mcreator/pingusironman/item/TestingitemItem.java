@@ -14,8 +14,6 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.client.util.ITooltipFlag;
 
-import net.mcreator.pingusironman.PingusIronManModElements;
-
 import java.util.List;
 
 @PingusIronManModElements.ModElement.Tag

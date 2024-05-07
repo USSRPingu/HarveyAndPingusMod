@@ -1,0 +1,11 @@
+{
+  "_fv": 33,
+  "_type": "tab",
+  "definition": {
+    "name": "Iron Man Armour",
+    "icon": {
+      "value": "CUSTOM:IronManMark1.body"
+    },
+    "showSearch": false
+  }
+}
