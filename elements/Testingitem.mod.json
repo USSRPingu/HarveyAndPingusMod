@@ -6,7 +6,9 @@
     "texture": "testing",
     "customModelName": "Normal",
     "name": "Testingitem",
-    "specialInfo": [],
+    "specialInfo": [
+      "asdasdasddas"
+    ],
     "creativeTab": {
       "value": "TOOLS"
     },
